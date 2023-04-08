@@ -1,0 +1,91 @@
+.loginformdiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+.loginphoto{
+  width: 400px;
+  height:500px;
+  
+ 
+}
+
+
+.login_container{
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px;
+    width: 400px;
+    height:500px;
+    margin-top: 40px;
+    position: relative;
+    
+}
+
+.form_container{
+    padding: 10px 15px;
+    
+}
+.login_description{
+    padding: 10px 20px;
+    background-color: rgb(212, 212, 212);
+    letter-spacing: 2px;
+}
+.login_description_para{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.form_container_form > label{
+    font-size: 18px;
+
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 08px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form_button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.logedinText{
+  text-align: center;
+}
+.logoutbutton{
+  width: 100%;
+  background-color: #ce241e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}

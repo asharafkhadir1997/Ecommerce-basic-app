@@ -1,0 +1,50 @@
+.gallery_contianer{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery_card{
+    display: block;
+    height:480px;
+    width:320px;
+    padding: 40px;
+    text-align: center;
+    
+}
+.gallery_card > img{
+   height: 350px;
+   width: 270px;
+}
+
+.gallery_card > h1{
+    padding: 10px 0px;
+}
+.gallery_card > p{
+    padding: 0px 0px 10px 0px;
+    font-weight: 600;
+}
+.gallery_titles{
+    padding: 0px 20px ;
+    background-color: aliceblue;
+}
+.gallery_title{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+.gallery_card > button{
+    padding: 5px 10px;
+}
+.gallery_button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.gallery_button:hover {
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+}
